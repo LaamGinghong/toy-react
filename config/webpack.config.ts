@@ -3,7 +3,7 @@ import { resolve } from 'path'
 
 const configuration: Configuration = {
   mode: 'development',
-  devtool: 'source-map',
+  // devtool: 'source-map',
   entry: {
     app: resolve('src', 'index.tsx'),
   },

@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = {
   mode: 'development',
   entry: {
-    app: path.resolve('src', 'index.js'),
+    app: path.resolve('src', 'index.jsx'),
   },
   optimization: {
     minimize: false,

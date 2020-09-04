@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "description": "用 TypeScript 实现的玩具 React",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",

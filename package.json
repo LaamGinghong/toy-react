@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "description": "用 TypeScript 实现的玩具 React",
+  "description": "实现一个玩具 React",
   "scripts": {
-    "build": "ts-node --files -P tsconfig.json config/build.ts"
+    "build": "webpack"
   },
   "husky": {
     "hooks": {
@@ -21,16 +21,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-decorators": "^7.10.5",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@babel/preset-env": "^7.11.5",
-    "@babel/preset-typescript": "^7.10.4",
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
-    "@types/webpack": "^4.41.22",
-    "@typescript-eslint/eslint-plugin": "^4.0.1",
-    "@typescript-eslint/parser": "^4.0.1",
     "babel-loader": "^8.1.0",
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
@@ -44,13 +38,8 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.3.0",
     "prettier": "^2.1.1",
-    "source-map-loader": "^1.1.0",
-    "typescript": "^4.0.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpackbar": "^4.0.0"
-  },
-  "peerDependencies": {
-    "ts-node": "^9.0.0"
   }
 }
